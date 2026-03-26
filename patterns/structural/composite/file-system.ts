@@ -89,3 +89,11 @@ console.log(`Total size: ${rootFolder.getSize()} bytes`);
 subFolder.delete();
 rootFolder.print();
 console.log(`Total size after deletion: ${rootFolder.getSize()} bytes`);
+
+// rootFolder.removeItem(file1);
+// rootFolder.print();
+// console.log(`Total size after removing file1: ${rootFolder.getSize()} bytes`);
+
+// rootFolder.delete();
+// rootFolder.print();
+// console.log(`Total size after deleting root folder: ${rootFolder.getSize()} bytes`);
